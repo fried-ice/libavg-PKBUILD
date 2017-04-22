@@ -1,13 +1,13 @@
 _pkgname=libavg
 pkgname=$_pkgname-git
-pkgver=20161003
+pkgver=20170117
 pkgrel=1
 pkgdesc='High-level multimedia platform with a focus on interactive art installations.'
 arch=('i686' 'x86_64')
 url='http://www.libavg.de'
 depends=('libtool' 'librsvg' 'libxi' 'gdk-pixbuf2' 'libxml2' 'ffmpeg2.8' 'boost' 'boost-libs' 'python2' 'pango' 'sdl2')
 install=$_pkgname.install
-backup=('etc/profile.d/libavg.sh' 'etc/profile.d/libavg.csh')
+backup=('etc/profile.d/libavg.sh')
 optdepends=('libvdpau' 'libdc1394' )
 makedepends=('python2' 'git' 'cmake')
 license=('LGPL')
